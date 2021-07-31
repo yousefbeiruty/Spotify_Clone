@@ -23,6 +23,7 @@
         android:id="@+id/ivSongImage"
         android:layout_width="300dp"
         android:layout_height="300dp"
+        android:scaleType="centerCrop"
         android:background="@color/darkBackground"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"

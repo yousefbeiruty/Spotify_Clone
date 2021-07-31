@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvSongName"
@@ -22,6 +22,7 @@
         android:id="@+id/ivSongImage"
         android:layout_width="300dp"
         android:layout_height="300dp"
+        android:scaleType="centerCrop"
         android:layout_marginStart="16dp"
         android:background="@color/darkBackground"
         app:layout_constraintBottom_toBottomOf="parent"
